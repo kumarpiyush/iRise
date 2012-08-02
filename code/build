@@ -1,0 +1,3 @@
+#!/bin/sh
+g++ -I/usr/include/opencv -o main DataBase.cpp SIFTransform.cpp TestImage.cpp main.cpp `pkg-config --libs opencv`;
+g++ -I/usr/include/FL/ -o iRISE iRISE.cpp -lfltk -lfltk_images -lX11;

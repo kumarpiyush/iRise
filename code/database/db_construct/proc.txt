@@ -1,0 +1,5 @@
+put images in images/
+./convert
+python mysiftcontroller.py
+python dists.py
+
